@@ -7,9 +7,9 @@ gem 'mongoid'
 gem 'bson_ext'
 gem 'mongo_ext'
 gem 'jquery-rails'
+gem 'jquery-rails-cdn'
 gem 'slim', '>= 1.3.8'
 gem 'slim-rails'
-gem 'jquery-rails-cdn'
 
 
 # Gems used only for assets and not required
