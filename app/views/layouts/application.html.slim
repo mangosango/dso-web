@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= full_title(yield(:title))
+    meta content="text/html; charset=utf-8" http-equiv="Content-Type"
+    meta content="Dartmouth Symphony Orchestra, DSO" name="author"
+    meta content="document" name="resource-type"
+    meta content="global" name="distribution"
+    meta content="general" name="rating"
+    meta content="ALL" name="robots"
+    meta content="Copyright 2011 Dartmouth Symphony Orchestra." name="copyright"
+    meta content="initial-scale =( 1.0,maximum-scale =)1.0" name="viewport"
+    meta content="The Dartmouth Symphony Orchestra, or DSO is the resident symphony orchestra at Dartmouth College." name="description"
+    meta content="dartmouth symphony orchestra, dso, anthony princiotti, princiotti, dartmouth, college, university, orchestra, symphony, ivy league, new hampshire, new england, music, mangosango" name="keywords"
+    = javascript_include_tag "application"
+    = jquery_include_tag     :google
+    = stylesheet_link_tag    "application", media: "all"
+    link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,400italic,600italic,700italic" rel="stylesheet" type="text/css"
+  body
+    = yield
