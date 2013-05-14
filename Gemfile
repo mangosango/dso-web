@@ -22,9 +22,14 @@ gem 'activeadmin-mongoid', git: "git://github.com/elia/activeadmin-mongoid.git"
 gem 'activeadmin', '0.5.1' # Force version 0.5.1 for Mongoid compatibility
 gem 'devise'
 
+# How about some easy file attachments using AWS?
+gem "mongoid-paperclip", :require => "mongoid_paperclip"
+gem 'aws-sdk', '~> 1.3.4'
+
 # Gems used only for assets
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
+  gem 'bootstrap-sass', '~> 2.3.1.0'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier',     '>= 1.0.3'
 end

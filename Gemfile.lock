@@ -55,6 +55,8 @@ GEM
       activesupport (>= 3.0.0)
     arel (3.0.2)
     bcrypt-ruby (3.0.1)
+    bootstrap-sass (2.3.1.0)
+      sass (~> 3.2)
     bourbon (3.1.6)
       sass (>= 3.2.0)
       thor
@@ -249,6 +251,7 @@ PLATFORMS
 DEPENDENCIES
   activeadmin (= 0.5.1)
   activeadmin-mongoid!
+  bootstrap-sass (~> 2.3.1.0)
   bson_ext
   capybara
   coffee-rails (~> 3.2.1)

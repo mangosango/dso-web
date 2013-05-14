@@ -27,7 +27,25 @@ $ rails server
 
 Now browse to <http://0.0.0.0:3000/> to see your site as you write it, and <http://0.0.0.0:3000/admin/> to create, edit, and destroy objects.
 
-### Testing
+### Front-end
+Front-end developers should start here.
+
+#### Templating
+The HTML templates are written in [Slim](http://slim-lang.com/), a very minimal, indentation-based language that describes the HTML DOM in a clean, readable way.
+
+#### Styling
+The CSS files are compiled from [SCSS](http://sass-lang.com/) files. Sassy CSS alows you to use variables, nesting, and more!
+
+#### Scripting
+The JavaScript files are written in [CoffeeScript](http://coffeescript.org/), a saner way to write JS.
+
+### Back-end
+We develop using Ruby on Rails, a full-stack DSL for modular, highly opinionated, rapid web application development.
+
+#### Deploying
+We deploy to Heroku, the Rails platform-as-a-service host, using a MongoHQ database.
+
+#### Testing
 The DSO website is developed using principles of behavior-driven development using RSpec. Tests look like:
 
 ```ruby
@@ -39,11 +57,6 @@ describe PagesController do
       get :index
       expect(response).to be_success
       expect(response.status).to eq(200)
-    end
-
-    it "renders the index template" do
-      get :index
-      expect(response).to render_template("index")
     end
   end
 end
@@ -70,9 +83,10 @@ The best way to perform tests is to have a terminal window open and to run `guar
     * Prospective Students
     * Members
     * Alumni
-* Attempt to port to Rails 4.0
+* Evaluate viability of port to Rails 4.0
+    * So far, blocked by lack of support for Heroku and `activeadmin-mongoid`.
 
 ## Authors
-* **Sang Lee**, web designer and cat lover
-* **Allison Wang**, graphic designer and apple fanatic
-* **Avery Yen**, programmer and Pokémon battler
+* **Sang Lee**, web designer and cat lover (actually, he may just be a cat)
+* **Allison Wang**, graphic designer and apple fanatic (as in the fruit)
+* **Avery Yen**, programmer and Pokémon battler (challenge him @ 'haplesshero' on Pokémon Showdown)
