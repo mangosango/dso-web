@@ -13,6 +13,7 @@ Developing the DSO website requires the following software to be installed:
     * RVM is ~~strongly recommended~~ practically necessary, meaning you will almost certainly need a C compiler (Xcode or GCC)
 * [Ruby on Rails](http://rubyonrails.org/) (3.2.18)
 * [MongoDB](http://www.mongodb.org/)
+* A JavaScript execution environment like [NodeJS](http://nodejs.org/)
 * A recent browser with a good DOM tree inspector (Chrome or Firefox with Firebug)
 
 Once you have all of those installed, you can run the website.
@@ -46,18 +47,18 @@ We develop using Ruby on Rails, a full-stack DSL for modular, highly opinionated
 We deploy to Heroku, the Rails platform-as-a-service host, using a MongoHQ database.
 
 #### Testing
-The DSO website is developed using principles of behavior-driven development using RSpec. Tests look like:
+The DSO website is developed using principles of behavior-driven development using Minitest::Spec. Tests look like:
 
 ```ruby
-require "spec_helper"
+require 'minitest/autorun'
+require_relative '../../app/models/orchestra'
 
-describe PagesController do
-  describe "GET #index" do
-    it "responds successfully with an HTTP 200 status code" do
-      get :index
-      expect(response).to be_success
-      expect(response.status).to eq(200)
-    end
+describe Orchestra do
+  subject       { Orchestra.new }
+  let(:members) { [] }
+
+  it "should be named" do
+    subject.name.must_equal "Dartmouth Symphony Orchestra"
   end
 end
 ```

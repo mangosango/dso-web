@@ -24,16 +24,17 @@ gem 'devise'
 
 # Gems used only for assets
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails',     '~> 3.2.3'
   gem 'bootstrap-sass', '~> 2.3.1.0'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier',     '>= 1.0.3'
+  gem 'coffee-rails',   '~> 3.2.1'
+  gem 'uglifier',       '>= 1.0.3'
 end
 
 # Gems for testing and development
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'guard-rspec'
+  gem 'minitest-spec-rails'
+  gem 'guard'
+  gem 'guard-minitest'
   gem 'debugger'
   gem 'capybara'
 end
