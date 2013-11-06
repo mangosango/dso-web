@@ -1,0 +1,1125 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"devices",
+				"devicesPopup"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"close",
+				"closebtn"
+			],
+			[
+				"current",
+				"currentTime"
+			],
+			[
+				"APP",
+				"APP_SYNC"
+			],
+			[
+				"curren",
+				"currentIndex"
+			],
+			[
+				"fr",
+				"fromRemote"
+			],
+			[
+				"laun",
+				"launchedOn"
+			],
+			[
+				"add",
+				"addDeviceToSyncArray"
+			],
+			[
+				"dev",
+				"deviceName"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"curre",
+				"currentImg"
+			],
+			[
+				"render",
+				"render_pic"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"set",
+				"setupSeekbar"
+			],
+			[
+				"stack",
+				"stackContainer"
+			],
+			[
+				"is",
+				"isOpen"
+			],
+			[
+				"re",
+				"rendered"
+			],
+			[
+				"uni",
+				"uniqueItem"
+			],
+			[
+				"z",
+				"z_index"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"make",
+				"makeUploader"
+			],
+			[
+				"background-",
+				"background-repeat"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"DIR_",
+				"DIR_INDEX"
+			],
+			[
+				"DIR",
+				"DIR_HISTORY"
+			],
+			[
+				"PREVI",
+				"PREVIOUS_DIR"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"DF",
+				"DEFAULT_APPS"
+			],
+			[
+				"data-f",
+				"data-fileLocation"
+			],
+			[
+				"conte",
+				"contentStyle"
+			],
+			[
+				"outer",
+				"outerHeight"
+			],
+			[
+				"out",
+				"outerWidth"
+			],
+			[
+				"update",
+				"updateFilesInDir"
+			],
+			[
+				"rendered",
+				"rendered_innerContent"
+			],
+			[
+				"DO",
+				"DOC_ICON"
+			],
+			[
+				"AUD",
+				"AUDIO_ICON"
+			],
+			[
+				"VIDEO",
+				"VIDEO_ICON"
+			],
+			[
+				"rendere",
+				"rendered_style"
+			],
+			[
+				"ren",
+				"rendered_filetype"
+			],
+			[
+				"rendered_file",
+				"rendered_filetype"
+			],
+			[
+				"pat",
+				"path_parts"
+			],
+			[
+				"pa",
+				"path_parts"
+			],
+			[
+				"device",
+				"devicesPopup"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"clie",
+				"client_uid"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"Sta",
+				"stackID"
+			],
+			[
+				"listen",
+				"listen_for_closing"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/slee/dso-web/app/views/layouts/application.html.slim",
+			"settings":
+			{
+				"buffer_size": 1188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/models/admin_user.rb",
+			"settings":
+			{
+				"buffer_size": 1446,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/models/event.rb",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/views/events/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/views/layouts/post.html.slim",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/views/pages/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/helpers/events_helper.rb",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/controllers/events_controller.rb",
+			"settings":
+			{
+				"buffer_size": 212,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "h1 Editing cat\n\n== render 'form'\n\n= link_to 'Show', @cat\n'|\n= link_to 'Back', cats_path\n\n",
+			"file": "/Users/slee/dso-web/app/views/cats/edit.html.slim",
+			"file_size": 89,
+			"file_write_time": 130269454840000000,
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class DogsController < InheritedResources::Base\n\ndef index\n\nend\nend\n",
+			"file": "/Users/slee/dso-web/app/controllers/dogs_controller.rb",
+			"file_size": 52,
+			"file_write_time": 130269455460000000,
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "p#notice = notice\n\np\n  strong Name:\n  = @dog.name\np\n  strong Type:\n  = @dog.type\n\n= link_to 'Edit', edit_dog_path(@dog)\n'|\n= link_to 'Back', dogs_path\n",
+			"file": "/Users/slee/dso-web/app/views/dogs/show.html.slim",
+			"file_size": 151,
+			"file_write_time": 130269455460000000,
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/config/application.rb",
+			"settings":
+			{
+				"buffer_size": 3071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/Rakefile",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application.css.scss",
+			"settings":
+			{
+				"buffer_size": 1278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/Gemfile",
+			"settings":
+			{
+				"buffer_size": 856,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 362.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/slee/dso-web/app/helpers/events_helper.rb",
+		"/Users/slee/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/slee/Box Sync/Product Design Hub - TESTING/Platform/Partner Integrations/Sharepoint/2 Initial Design/Assets/cloudConnect.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/music/js/music.js",
+		"/C/Users/Sang/Documents/thesis/app/titlebar.js",
+		"/C/Users/Sang/Documents/thesis/app/manifest.json",
+		"/C/Users/Sang/Documents/thesis/app/apps/presenter/index.html",
+		"/C/Users/Sang/Documents/thesis/app/apps/presenter/js/presenter.js",
+		"/C/Users/Sang/Documents/thesis/app/apps/presenter/js/photos.js.bak",
+		"/C/Users/Sang/Documents/thesis/app/titlebar-transparent.js",
+		"/C/Users/Sang/Documents/thesis/app/window.html",
+		"/C/Program Files/nodejs/WebSocketV1.js",
+		"/C/Users/Sang/Documents/thesis/app/background.js",
+		"/C/Users/Sang/Documents/thesis/app/apps/photos/index.html",
+		"/C/Users/Sang/Documents/thesis/app/styles/style.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/music/style/music.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/photos/style/photos.css",
+		"/C/Users/Sang/Documents/thesis/app/styles/taskbar.css",
+		"/C/Users/Sang/Documents/thesis/app/js/desktop.js",
+		"/C/Users/Sang/Documents/thesis/app/apps/photos/js/photos.js",
+		"/C/Program Files/nodejs/photo_server.js",
+		"/C/Users/Sang/Documents/thesis/app/apps/music/index.html",
+		"/C/Users/Sang/Documents/thesis/app/apps/notepad/style/music.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/notepad/js/music.js",
+		"/C/Users/Sang/Documents/thesis/app/apps/notepad/index.html",
+		"/C/Users/Sang/Documents/thesis/app/apps/youtube/js/photos.js",
+		"/C/Users/Sang/Documents/thesis/app/apps/browser/index.html",
+		"/C/Users/Sang/Documents/thesis/app/apps/youtube/index.html",
+		"/C/Users/Sang/Documents/thesis/app/apps/browser/style/browser.css",
+		"/C/Users/Sang/Documents/thesis/app/js/fileManager.js",
+		"/C/Users/Sang/Documents/thesis/app/launchFile.js",
+		"/C/Users/Sang/Documents/thesis/app/styles/drawer.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/files/index.html",
+		"/C/Users/Sang/Documents/thesis/app/apps/files/style/filemanager.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/files/js/filemanager.js",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/browser/browser.html",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/browser/browser.js",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/browser/browser.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/browser/js/browser.js",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/frameless-window/style.css",
+		"/C/Users/Sang/Documents/thesis/app/apps/browser/js/filemanager.js",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/browser/manifest.json",
+		"/C/Users/Sang/Documents/thesis/app/apps/browser/style/filemanager.css",
+		"/C/Users/Sang/Documents/thesis/app/styles/titlebars.css",
+		"/C/Users/Sang/Documents/thesis/strategy.txt",
+		"/C/Users/Sang/Documents/thesis/app/clipboard.js",
+		"/C/xampp/htdocs/uploader/index.php",
+		"/C/xampp/htdocs/uploader/upload.php",
+		"/C/Users/Sang/Documents/thesis/app/apps/photos/style/photos",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/frameless-window/titlebar.js",
+		"/C/xampp/htdocs/thesis/server-mobile.sublime-project",
+		"/C/Users/Sang/Documents/thesis/app/litestep.txt",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/instagram-auth/index.js",
+		"/C/xampp/htdocs/thesis/userApps.php",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/instagram-auth/manifest.json",
+		"/C/Program Files/nodejs/socket-server.js",
+		"/C/Users/Sang/Documents/thesis/app/js/OK",
+		"/C/Program Files/nodejs/app.js",
+		"/C/Users/Sang/Documents/thesis/app/js/taskbar.js",
+		"/C/Users/Sang/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/webserver/main.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"WEB_HOST",
+			"localho",
+			"#content",
+			"ACTIVE_DEVICES[device]",
+			"UID",
+			"APP_SYNC",
+			"POPUP_OPEN",
+			"interval",
+			"setTime",
+			"setInterval",
+			"setupSong()",
+			"setupSeekbar()",
+			"setupSong",
+			"startTime",
+			"render_albumart",
+			"closeTask",
+			"RUNNING_APPS",
+			"RUNNING_APPS[appName]",
+			"launchTask",
+			"> 0",
+			"> 0=",
+			"> 0",
+			"data-deviceName",
+			"addLoadEvent",
+			"addLoad",
+			"add",
+			"ALL_RENDERED",
+			"render_pic",
+			"XHR_REQ",
+			"openStack",
+			"button",
+			"div",
+			"<script src=\"../../js/jquery-1.9.1.min.js\"></script>",
+			"\n	",
+			"<script src=\"../../js/jquery-1.9.1.min.js\"></script>",
+			"[devices]",
+			"[connections]",
+			"CLIENTS[UID]",
+			"CLIENTS[UID].push(connection);",
+			"	\n",
+			"each",
+			"foreach",
+			"each",
+			".each",
+			"foreach",
+			"'desktop'",
+			"desktop",
+			"closeTask",
+			"		\n",
+			"padding"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"json.device",
+			"button",
+			"['devices']",
+			"['connections']"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/slee/dso-web"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/slee/dso-web/app/views/layouts/application.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1061,
+								1061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/slee/dso-web/app/models/admin_user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/slee/dso-web/app/models/event.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/slee/dso-web/app/views/events/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/slee/dso-web/app/views/layouts/post.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/slee/dso-web/app/views/pages/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/slee/dso-web/app/helpers/events_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/slee/dso-web/app/controllers/pages_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/slee/dso-web/app/controllers/events_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/slee/dso-web/app/views/cats/edit.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/slee/dso-web/app/controllers/dogs_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/slee/dso-web/app/views/dogs/show.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/slee/dso-web/config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/slee/dso-web/config/application.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1841,
+								1841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/slee/dso-web/Rakefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 15,
+					"file": "application.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								579,
+								579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/slee/dso-web/Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								520,
+								520
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.425478114058,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

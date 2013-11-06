@@ -1,0 +1,27 @@
+h1 Listing auditions
+
+table
+  tr
+    th Date
+    th =
+    th Times
+    th Location
+    th Description
+    th
+    th
+    th
+
+  - @auditions.each do |audition|
+    tr
+      td = audition.date
+      td = audition.=
+      td = audition.times
+      td = audition.location
+      td = audition.description
+      td = link_to 'Show', audition
+      td = link_to 'Edit', edit_audition_path(audition)
+      td = link_to 'Destroy', audition, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Audition', new_audition_path

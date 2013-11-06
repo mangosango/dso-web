@@ -1,0 +1,21 @@
+p#notice = notice
+
+p
+  strong Date:
+  = @audition.date
+p
+  strong =:
+  = @audition.=
+p
+  strong Times:
+  = @audition.times
+p
+  strong Location:
+  = @audition.location
+p
+  strong Description:
+  = @audition.description
+
+= link_to 'Edit', edit_audition_path(@audition)
+'|
+= link_to 'Back', auditions_path

@@ -1,0 +1,24 @@
+= form_for @audition do |f|
+  - if @audition.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@audition.errors.count, "error")} prohibited this audition from being saved:"
+      ul
+        - @audition.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :date
+    = f.text_field :date
+  .field
+    = f.label :=
+    = f.text_field :=
+  .field
+    = f.label :times
+    = f.text_field :times
+  .field
+    = f.label :location
+    = f.text_field :location
+  .field
+    = f.label :description
+    = f.text_field :description
+  .actions = f.submit 'Save'

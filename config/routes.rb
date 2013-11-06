@@ -1,4 +1,7 @@
 DsoWeb::Application.routes.draw do
+  resources :auditions
+
+
   root to: 'pages#index'
   resources :events
 

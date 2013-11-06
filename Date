@@ -1,0 +1,23 @@
+Plural version of the model detected, using singularized version. Override with --force-plural.
+[1m[37m      invoke[0m  mongoid
+[1m[32m      create[0m    app/models/audition.rb
+[1m[37m      invoke[0m  resource_route
+[1m[32m       route[0m    resources :auditions
+[1m[37m      invoke[0m  inherited_resources_controller
+[1m[32m      create[0m    app/controllers/auditions_controller.rb
+[1m[37m      invoke[0m    slim
+[1m[32m      create[0m      app/views/auditions
+[1m[32m      create[0m      app/views/auditions/index.html.slim
+[1m[32m      create[0m      app/views/auditions/edit.html.slim
+[1m[32m      create[0m      app/views/auditions/show.html.slim
+[1m[32m      create[0m      app/views/auditions/new.html.slim
+[1m[32m      create[0m      app/views/auditions/_form.html.slim
+[1m[37m      invoke[0m    helper
+[1m[32m      create[0m      app/helpers/auditions_helper.rb
+[1m[37m      invoke[0m  assets
+[1m[37m      invoke[0m    coffee
+[1m[32m      create[0m      app/assets/javascripts/auditions.js.coffee
+[1m[37m      invoke[0m    scss
+[1m[32m      create[0m      app/assets/stylesheets/auditions.css.scss
+[1m[37m      invoke[0m  scss
+[1m[34m   identical[0m    app/assets/stylesheets/scaffolds.css.scss
