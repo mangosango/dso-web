@@ -1,1 +1,22 @@
 - provide(:title, 'Dartmouth Symphony Orchestra')
+#main
+  .container.mainEvent[style='background-image:url(#{@firstEvent.image})']
+    .row
+      .twelvecol.last
+        small = @firstEvent.date
+        h1 = @firstEvent.name
+        p = @firstEvent.description
+
+        a.button[href="#{@firstEvent.ticketURL}"]
+
+  .comtainer.news
+    .row
+      .twelvecol.last
+        h3.news News
+    - for event in @events do
+      .row
+        .twelvecol.last
+          article
+            h3.articleTitle = event.name
+            small.articleDate = event.date
+            p = event.description

@@ -14,6 +14,7 @@ ActiveAdmin.register Event do
       f.input :name
       f.input :description
       f.input :date, as: :datepicker
+      f.input :image
     end
     f.actions
   end

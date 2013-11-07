@@ -37,4 +37,5 @@ group :development, :test do
   gem 'guard-minitest'
   gem 'debugger'
   gem 'capybara'
+  gem 'better_errors'
 end
