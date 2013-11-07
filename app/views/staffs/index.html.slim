@@ -1,0 +1,25 @@
+h1 Listing staffs
+
+table
+  tr
+    th Team
+    th Name
+    th Position
+    th Photo
+    th
+    th
+    th
+
+  - @staffs.each do |staff|
+    tr
+      td = staff.team
+      td = staff.name
+      td = staff.position
+      td = staff.photo
+      td = link_to 'Show', staff
+      td = link_to 'Edit', edit_staff_path(staff)
+      td = link_to 'Destroy', staff, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Staff', new_staff_path

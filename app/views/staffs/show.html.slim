@@ -1,0 +1,18 @@
+p#notice = notice
+
+p
+  strong Team:
+  = @staff.team
+p
+  strong Name:
+  = @staff.name
+p
+  strong Position:
+  = @staff.position
+p
+  strong Photo:
+  = @staff.photo
+
+= link_to 'Edit', edit_staff_path(@staff)
+'|
+= link_to 'Back', staffs_path
