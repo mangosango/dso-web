@@ -6,17 +6,21 @@
         small = @firstEvent.date
         h1 = @firstEvent.name
         p = @firstEvent.description
+        a.button[href="#{ (defined? @firstEvent.ticketURL) ? @firstEvent.ticketURL : '#' }"]
+            = "Get Tickets"
 
-        a.button[href="#{@firstEvent.ticketURL}"]
-
-  .comtainer.news
+  .comtainer.news.section
     .row
-      .twelvecol.last
-        h3.news News
+      .twelvecol.last.center
+        h3
+          i[class='icon-newspaper']
+          = "News"
+  .comtainer.news.section
     - for event in @events do
       .row
         .twelvecol.last
           article
-            h3.articleTitle = event.name
+            h4.articleTitle = event.name
             small.articleDate = event.date
+            hr
             p = event.description

@@ -15,6 +15,7 @@ ActiveAdmin.register Event do
       f.input :description
       f.input :date, as: :datepicker
       f.input :image
+      f.input :ticketURL
     end
     f.actions
   end
