@@ -65,6 +65,7 @@ hr {
   position: fixed; top:0;left:0;
   height: 100%; width: $leftBarWidth;
   background-color: $dark;
+  z-index: 99;
 }
 
 #main {
@@ -88,9 +89,13 @@ hr {
 	font-family: $narrow-sans-serif;
 	background-size: cover;
 	background-repeat: none;
-	padding-top: 175px;
-  padding-bottom: 250px;
-	background-color: #000;
+	background-color: #000;  
+  background-color: rgba(80,80,80,0.8);
+
+  .row {
+    padding-top: 175px;
+    padding-bottom: 250px;
+  }
 
 	small {
 		text-transform: uppercase;
@@ -196,8 +201,40 @@ hr {
   height: 1px;
 }
 
+#video_background {
+  position: absolute;
+  bottom: 0px; 
+  right: 0px; 
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto; 
+  height: auto; 
+  z-index: -1000; 
+  overflow: hidden
+}
 
+.videoWrapper {
+  position: absolute;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 0;
+  height: 0;
+  //width: 100%;
+  top:0;left:0;
+}
+.videoWrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.colorOverlay {
+  background-color: rgba(80,80,80,0.8);
+  width: 100%;height: 100%;
+}
 
-
+.container.news {
+  background-color: #fff;
+}
 
 
