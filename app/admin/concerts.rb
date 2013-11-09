@@ -12,11 +12,11 @@ ActiveAdmin.register Concert do
   form do |f|
     f.inputs "Event" do
       f.input :name
-      f.input :description
       f.input :date, as: :datepicker
       f.input :time
       f.input :image
       f.input :ticket
+      f.input :description, as: :text
     end
     f.actions
   end

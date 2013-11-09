@@ -12,8 +12,8 @@ ActiveAdmin.register Event do
   form do |f|
     f.inputs "Event" do
       f.input :name
-      f.input :description
       f.input :date, as: :datepicker
+      f.input :description, as: :text
     end
     f.actions
   end

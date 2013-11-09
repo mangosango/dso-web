@@ -106,7 +106,7 @@ hr {
   background-attachment: fixed;
   text-align: center;
 
-  .column12 {
+  .row {
     padding-top: 175px;
     padding-bottom: 250px;
 
@@ -125,6 +125,10 @@ hr {
     @media handheld, only screen and (max-width: 835px) {
       font-size: 10pt;
     }
+
+    @media handheld, only screen and (max-width: 576px) {
+      font-size: 14pt;
+    }
 	}
 
 	h1 {
@@ -135,6 +139,11 @@ hr {
 
     @media handheld, only screen and (max-width: 835px) {
       font-size: 48pt;
+    }
+
+    @media handheld, only screen and (max-width: 576px) {
+      font-size: 32pt;
+      margin-bottom: 20px;
     }
 	}
 
@@ -178,6 +187,16 @@ hr {
     letter-spacing: 2px;
     font-size: 18pt;
     text-transform: uppercase;
+  }
+
+  @media handheld, only screen and (max-width: 576px) {
+    .twelvecol {
+      margin-bottom: 0 !important;
+    }
+
+    h3 {
+      line-height: 75px;
+    }
   }
 
   article {
