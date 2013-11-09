@@ -1,8 +1,8 @@
 - provide(:title, 'Dartmouth Symphony Orchestra')
 #main
   .container.mainEvent[style='#{ @firstEvent.image.present? ? "background-image:url(#{@firstEvent.image})" : "" }']
-    .row
-      .twelvecol.last
+    .container12
+      .column12.alpha.omega
         small = @firstEvent.date
         h1 = @firstEvent.name
         p = @firstEvent.description
@@ -10,16 +10,15 @@
           = "Get Tickets"
 
   .container.news.section
-    .row
-      .twelvecol.last.center
+    .container12
+      .column12.alpha.omega.center
         h3
           i[class='icon-newspaper']
           = "News"
   .container.news
     - for event in @events do
-      .row
-        .twocol
-        .eightcol.last
+      .container12
+        .prefix2.column8.alpha.omega
           article
             h4.articleTitle = event.name
             small.articleDate = event.date

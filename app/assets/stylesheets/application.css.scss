@@ -63,12 +63,12 @@ hr {
 }
 
 #wrapper {
-  padding-left: $leftBarWidth;
+  // padding-left: $leftBarWidth;
 
-  @media only screen and (max-width: 1043px) {
-    padding-left: 0;
-    //@include translate-x(0);
-  }
+  // @media only screen and (max-width: 1043px) {
+  //   padding-left: 0;
+  //   //@include translate-x(0);
+  // }
 }
 
 #leftBar {
@@ -106,7 +106,7 @@ hr {
   background-attachment: fixed;
   text-align: center;
 
-  .row {
+  .column12 {
     padding-top: 175px;
     padding-bottom: 250px;
 
