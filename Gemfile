@@ -40,3 +40,8 @@ group :development, :test do
   gem 'debugger'
   gem 'capybara'
 end
+
+# for heroku
+group :production do
+  gem 'rails_12factor'
+end
