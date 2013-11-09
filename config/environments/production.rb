@@ -23,9 +23,6 @@ DsoWeb::Application.configure do
   # Initialize on Precompile (for wysiwyg5 active_admin editor)
   config.initialize_on_precompile = true
 
-  # Enable heroku labs precompile (for wysiwyg5 active_admin editor)
-  heroku labs:enable user-env-compile -a myapp
-
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
