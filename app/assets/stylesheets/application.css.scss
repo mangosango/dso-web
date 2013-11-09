@@ -33,6 +33,11 @@ $leftBarWidth: 200px;
   border-radius: $n;
 }
 
+@mixin translate-x($n) {
+  transform: translate3d($n,0,0);
+  -webkit-transform: translate3d($n,0,0);
+}
+
 // IMPORTS
 
 //@import "bootstrap";
@@ -59,6 +64,11 @@ hr {
 
 #wrapper {
   padding-left: $leftBarWidth;
+
+  @media only screen and (max-width: 1043px) {
+    padding-left: 0;
+    //@include translate-x(0);
+  }
 }
 
 #leftBar {
@@ -66,12 +76,15 @@ hr {
   height: 100%; width: $leftBarWidth;
   background-color: $dark;
   z-index: 99;
+
+  @media only screen and (max-width: 1043px) {
+    @include translate-x(-($leftBarWidth));
+  }
 }
 
 #main {
 	width: 100%;
 	height: 100%;
-  display: inline-block;
 }
 
 .container {
@@ -90,17 +103,28 @@ hr {
 	background-repeat: none;
 	background-color: #000;  
   background-color: rgba(80,80,80,0.8);
+  background-attachment: fixed;
   text-align: center;
 
   .row {
     padding-top: 175px;
     padding-bottom: 250px;
+
+    @media only screen and (max-width: 1043px) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
   }
 
 	small {
 		text-transform: uppercase;
 		font-size: 14pt;
     letter-spacing: 3px;
+    font-weight: 200;
+
+    @media handheld, only screen and (max-width: 835px) {
+      font-size: 10pt;
+    }
 	}
 
 	h1 {
@@ -108,6 +132,10 @@ hr {
 		line-height: 1.3em;
 		text-transform: uppercase;
 		letter-spacing: 4px;
+
+    @media handheld, only screen and (max-width: 835px) {
+      font-size: 48pt;
+    }
 	}
 
 	p {
@@ -115,6 +143,10 @@ hr {
 		font-weight: 300;
 		font-size: 15pt;
     line-height: 18pt;
+
+    @media handheld, only screen and (max-width: 835px) {
+      font-size: 13pt;
+    }
 	}
 }
 
@@ -179,6 +211,7 @@ hr {
 
 .footer {
   padding-top: 50px;
+  background-color: #fff;
 }
 
 // typography
@@ -202,7 +235,7 @@ hr {
 }
 
 #video_background {
-  position: absolute;
+  position: fixed;
   bottom: 0px; 
   right: 0px; 
   min-width: 100%; 

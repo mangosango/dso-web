@@ -15,12 +15,10 @@ html
     = jquery_include_tag     :google
     / = javascript_include_tag "application"
     = stylesheet_link_tag    "application", media: "all"
-    / link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'
-    / link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'
+    link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'
+    link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'
   body
     #leftBar
     #wrapper
       = yield
-  .container
-    .row
-      .footer
+  .container.footer
