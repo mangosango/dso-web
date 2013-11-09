@@ -25,6 +25,10 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
+    active_admin_editor (1.1.0)
+      activeadmin (>= 0.4.0)
+      ejs
+      rails (>= 3.0.0)
     activeadmin (0.5.1)
       arbre (>= 1.0.1)
       bourbon (>= 1.0.0)
@@ -89,6 +93,7 @@ GEM
       orm_adapter (~> 0.1)
       railties (~> 3.1)
       warden (~> 1.2.1)
+    ejs (1.1.1)
     entypo-rails (2.0.2)
       railties (>= 3.1, <= 5)
     erubis (2.7.0)
@@ -238,6 +243,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_admin_editor
   activeadmin (= 0.5.1)
   activeadmin-mongoid!
   bson_ext

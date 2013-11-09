@@ -3,7 +3,7 @@ ActiveAdmin.register Event do
 
   index do
     column :date, sortable: :date do |event|
-      link_to event.date.to_s(:long), admin_event_path(event)
+      link_to event.date.to_s(:long), edit_admin_event_path(event)
     end
     column :name
     column :description
@@ -13,7 +13,7 @@ ActiveAdmin.register Event do
     f.inputs "Event" do
       f.input :name
       f.input :date, as: :datepicker
-      f.input :description, as: :text
+      f.input :description, as: :html_editor
     end
     f.actions
   end

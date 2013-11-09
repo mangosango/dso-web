@@ -24,7 +24,7 @@
             h4.articleTitle = event.name
             small.articleDate = event.date
             hr
-            p = event.description
+            p = raw(event.description)
       .dotted-border
 
 - unless @firstEvent.image.present?
