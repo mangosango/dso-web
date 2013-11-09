@@ -17,7 +17,6 @@ ActiveAdmin.register Concert do
       f.input :time
       f.input :image
       f.input :ticket
-      f.input :videoSource
     end
     f.actions
   end

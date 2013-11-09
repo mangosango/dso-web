@@ -6,7 +6,6 @@ class Concert
   field :description
   field :image
   field :ticket
-  field :videoSource
 
   validates_presence_of :name
   validates_presence_of :date

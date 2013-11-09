@@ -77,7 +77,6 @@ hr {
 .container {
 	width: 100%;
 	//padding: 50px 0;
-	text-align: center;
 }
 
 .section {
@@ -91,6 +90,7 @@ hr {
 	background-repeat: none;
 	background-color: #000;  
   background-color: rgba(80,80,80,0.8);
+  text-align: center;
 
   .row {
     padding-top: 175px;
