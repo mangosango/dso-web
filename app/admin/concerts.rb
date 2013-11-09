@@ -1,9 +1,9 @@
-ActiveAdmin.register Event do
+ActiveAdmin.register Concert do
   config.sort_order = "date_desc"
 
   index do
-    column :date, sortable: :date do |event|
-      link_to event.date.to_s(:long), admin_event_path(event)
+    column :date, sortable: :date do |concert|
+      link_to concert.date.to_s(:long), edit_admin_concert_path(concert)
     end
     column :name
     column :description
@@ -14,6 +14,9 @@ ActiveAdmin.register Event do
       f.input :name
       f.input :description
       f.input :date, as: :datepicker
+      f.input :time
+      f.input :image
+      f.input :ticket
     end
     f.actions
   end

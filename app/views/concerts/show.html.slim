@@ -1,0 +1,21 @@
+p#notice = notice
+
+p
+  strong Date:
+  = @concert.date
+p
+  strong Time:
+  = @concert.time
+p
+  strong Description:
+  = @concert.description
+p
+  strong Image:
+  = @concert.image
+p
+  strong Ticket:
+  = @concert.ticket
+
+= link_to 'Edit', edit_concert_path(@concert)
+'|
+= link_to 'Back', concerts_path
