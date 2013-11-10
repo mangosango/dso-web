@@ -13,7 +13,7 @@ ActiveAdmin.register Event do
     f.inputs "Event" do
       f.input :name
       f.input :date, as: :datepicker
-      f.input :description, as: :html_editor
+      f.input :description, as: :text, input_html: { id: "redactor_here", class: "redactor", rows: "400" }
     end
     f.actions
   end

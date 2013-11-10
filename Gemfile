@@ -20,7 +20,7 @@ gem 'slim-rails'
 # Let's have some admin interface
 gem 'activeadmin-mongoid', git: "git://github.com/elia/activeadmin-mongoid.git"
 gem 'activeadmin', '0.5.1' # Force version 0.5.1 for Mongoid compatibility
-gem 'active_admin_editor'
+gem 'redactor-rails'
 gem 'devise'
 
 # Gems used only for assets
