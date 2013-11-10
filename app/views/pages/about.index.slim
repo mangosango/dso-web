@@ -1,0 +1,6 @@
+- provide(:title, 'About | Dartmouth Symphony Orchestra')
+#main
+  .container.mainEvent[style='#{ @about.image.present? ? "background-image:url(#{@about.image})" : "" }']
+    .row
+      .twelvecol.last
+        raw(#{@about.description})
