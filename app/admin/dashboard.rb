@@ -16,12 +16,26 @@ ActiveAdmin.register_page "Dashboard" do
       column do
         panel "Recent Events" do
           ul do
-            for event in Event.all do
+            for event in Event.all.sort_by(&:date).reverse do
               li link_to(event.name, edit_admin_event_path(event))
+              div event.date
+              para truncate(event.description, :length => 50)
             end
           end
         end
-      end # content
+      end
+
+      column do
+        panel "Concerts" do
+          ul do
+            for concert in Concert.all.sort_by(&:date).reverse do
+              li link_to(concert.name, edit_admin_concert_path(concert))
+              div concert.date
+              para truncate(concert.description, :length => 50)
+            end
+          end
+        end
+      end
 
       column do
         panel "Audition Info" do

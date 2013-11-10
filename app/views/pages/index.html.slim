@@ -2,7 +2,7 @@
 #main
   .container.mainEvent[style='#{ @firstEvent.image.present? ? "background-image:url(#{@firstEvent.image})" : "" }']
     .row
-      .twelvecol.last
+      .twelvecol.last[style='#{ @firstEvent.blackText.present? ? "color:#333" : "" }']
         small = @firstEvent.date
         h1 = @firstEvent.name
         p = @firstEvent.description

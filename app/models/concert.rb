@@ -6,6 +6,7 @@ class Concert
   field :description
   field :image
   field :ticket
+  field :blackText
 
   validates_presence_of :name
   validates_presence_of :date

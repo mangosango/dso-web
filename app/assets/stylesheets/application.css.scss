@@ -106,6 +106,10 @@ hr {
   background-position: center bottom;
   text-align: center;
 
+  .dark { 
+    color: $dark;
+  }
+
   @media only screen and (max-width: 1043px) {
     background-image: url(http://25.media.tumblr.com/8a2659d782124f9a1f5a5f26c32a9c43/tumblr_mqq4d9GIwL1st5lhmo1_1280.jpg);
   }
