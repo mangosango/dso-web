@@ -12,6 +12,8 @@ gem 'mongo_ext'
 # JQuery served via CDN
 gem 'jquery-rails'
 gem 'jquery-rails-cdn'
+gem 'jquery-turbolinks'
+gem 'turbolinks'
 
 # Force newer slim version
 gem 'slim', '>= 1.3.8'
@@ -29,7 +31,6 @@ group :assets do
   gem 'entypo-rails'
   gem 'coffee-rails',   '~> 3.2.1'
   gem 'uglifier',       '>= 1.0.3'
-  gem 'turbolinks'
 end
 
 # Gems for testing and development

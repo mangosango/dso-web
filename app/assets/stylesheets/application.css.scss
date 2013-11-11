@@ -92,22 +92,23 @@ hr {
 
 #leftBar {
   overflow: auto;
-  background-color: $dark;
+  background-color: #222;
   position: fixed;
   top:0;left:0;
   height: 100%;
   width: $leftBarWidth;
-  font-family: $sans-serif;
-  font-weight: 200;
+  font-family: $serif;
+  font-weight: 600;
   color: white; 
   @include transition(150ms);
-  z-index: 99999;
+  z-index: 999;
 
   ul {
 
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 
     li {
 
@@ -116,29 +117,36 @@ hr {
       overflow:hidden;
 
       a {
-        padding: 10px 20px;
-        color:#666;
+        padding: 10px 0;
         display:block;
+        color: $gray;
         width:100%;
+        text-transform: uppercase;
         text-decoration:none;
         @include transition(100ms);
         vertical-align:middle;
+        font-size: 10pt;
+        font-weight: 400;
         &:hover {
-          background-color:$dark + #111;
+          // background-color:#222 + #111;
           color:$light;
-          padding-left: 24px;
         }
         &.current {
-          background-color:#000;
+          // background-color:#000;
           color:$light;
         }
-        &.home {
-          background-color: $dark;
-          color: white;
-          font-size: 14px;
-          font-style: italic;
-          padding-top:25px;padding-bottom:25px;
-        }
+      }
+
+      .root_link {
+        height: 125px;
+        background-image: image-url('dso_logo@2x.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 102px 71px;
+        padding: 0;
+        width: 60%;
+        margin: 0 auto 20px auto;
+        border-bottom: 2px solid #fff;
       }
     } //li
   } // ul
@@ -159,6 +167,10 @@ hr {
 
 .section {
   border-bottom: 1px solid $light - #111;
+}
+
+.about {
+  height: 600px;
 }
 
 .mainEvent {
