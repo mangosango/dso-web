@@ -65,6 +65,8 @@ p {
   font-size: 14pt;
   line-height: 18pt;
 
+  margin-bottom: 10px;
+
   @media handheld, only screen and (max-width: 835px) {
     font-size: 13pt;
   }
