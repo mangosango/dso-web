@@ -18,13 +18,14 @@
 $(document).ready(function() {
 	// drop in alerts
 	var $leftBar = $('#leftBar');
+	var $openMenu = $('#openMenu');
 	var $openBar = $('#openBar');
 
 	// open menu on smaller screens
-	$openBar.on('click', function(e) {
+	$openMenu.on('click', function(e) {
 		e.preventDefault();
 		$leftBar.toggleClass('closed');
 		$('#main').toggleClass('closed');
-		$(this).toggleClass('closed');
+		$openBar.toggleClass('closed');
 	});
 });
