@@ -263,6 +263,7 @@ DEPENDENCIES
   jquery-rails
   jquery-rails-cdn
   jquery-turbolinks
+  kaminari
   minitest-spec-rails
   mongo_ext
   mongoid

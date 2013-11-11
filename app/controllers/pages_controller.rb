@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-  	@firstEvent = Concert.all.sort_by(&:date).last
-  	@events = Event.all.sort_by(&:date).reverse.first(3)
+  	@firstEvent = Concert.order_by(:date => :desc).last
+  	@events = Event.order_by(:date => :desc).limit(3)
   end
 end

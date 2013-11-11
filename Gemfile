@@ -25,6 +25,9 @@ gem 'activeadmin', '0.5.1' # Force version 0.5.1 for Mongoid compatibility
 gem 'redactor-rails'
 gem 'devise'
 
+# WE DON'T FUCK AROUND
+gem 'kaminari'
+
 # Gems used only for assets
 group :assets do
   gem 'sass-rails',     '~> 3.2.3'
