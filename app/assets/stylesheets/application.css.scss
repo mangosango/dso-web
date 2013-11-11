@@ -85,7 +85,7 @@ hr {
 
 #wrapper {
   padding-left: $leftBarWidth;
-  @include transition(150ms);
+  @include transition(250ms);
 
   @media only screen and (max-width: 1043px) {
     padding-left: 0;
@@ -103,7 +103,7 @@ hr {
   font-family: $serif;
   font-weight: 600;
   color: white; 
-  @include transition(150ms);
+  @include transition(250ms);
   z-index: 999;
 
   ul {
@@ -159,13 +159,15 @@ hr {
     } //li
   } // ul
   @media only screen and (max-width: 1043px) {
-    @include translate-x(-($leftBarWidth));
+    // @include translate-x(-($leftBarWidth));
+    left: -($leftBarWidth);
   }
 } // leftbar
 
 #main {
 	width: 100%;
 	height: 100%;
+  @include transition(250ms);
 }
 
 .container {
@@ -188,7 +190,7 @@ hr {
 	background-repeat: none;
   background-color: rgba(80,80,80,0.8);
   //background-attachment: fixed;
-  background-position: center bottom;
+  background-position: center center;
   text-align: center;
 
   .dark { 
@@ -268,7 +270,7 @@ hr {
 .news {
 
   h3 {
-    font-weight: 400;
+    font-weight: 600;
     line-height: 100px;
     letter-spacing: 2px;
     font-size:18pt;
@@ -346,7 +348,6 @@ hr {
   }
 }
 
-
 .footer {
   padding-top: 50px;
   background-color: #fff;
@@ -423,9 +424,83 @@ hr {
   background-color: rgba(80,80,80,0.8);
   width: 100%;height: 100%;
 }
+.closed {
+  transform: translate(0,0)  scale(1);
+  -ms-transform: translate(0,0)  scale(1); /* IE 9 */
+  -webkit-transform: translate(0,0)  scale(1); /* Safari and Chrome */
+  -webkit-backface-visibility: hidden;
+
+  @media only screen and (max-width: 1043px) {
+    transform: translate3d($leftBarWidth,0,0)  scale(1);
+    -ms-transform: translate3d($leftBarWidth,0,0)  scale(1); /* IE 9 */
+    -webkit-transform: translate3d($leftBarWidth,0,0)  scale(1); /* Safari and Chrome */
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+#openBar {
+  z-index: 999;
+  @include transition(350ms);
+  display:none;
+  @media only screen and (max-width: 1043px) {
+    display: block;
+  }
+  position: fixed;
+  top: 15px;
+}
+
+#openMenu {
+  padding: 20px;
+  background: #222;
+  i[class^="icon-"] {
+    color: #fff;
+  }
+}
+
+
+
+
+
 
 .container.news {
   background-color: #fff;
 }
 
+.portrait {
+  width: 200px;
+  height:200px;
+  border-radius: 200px;
+  margin: 10px auto;
+  background-size: cover;
+  background-position: center center;
+}
 
+.container.staff {
+  padding: 80px 0;
+
+  .row {
+    padding-bottom: 80px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    .h3 {
+      color: $dark;
+      font-size: 18pt;
+      font-weight: 600;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    small.position {
+      color: $gray;
+      font-family: $sans-serif;
+      font-size: 12pt;
+    }
+  }
+}
+
+.container.staff.mainEvent {
+  padding: 0;
+  height: 0px;
+  background-image: url('http://24.media.tumblr.com/23e3f4bb271b8bdc415275fb7061f204/tumblr_mve3rvxwaP1st5lhmo1_1280.jpg');
+}

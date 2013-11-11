@@ -1,25 +1,50 @@
-h1 Listing staffs
-
-table
-  tr
-    th Team
-    th Name
-    th Position
-    th Photo
-    th
-    th
-    th
-
-  - @staffs.each do |staff|
-    tr
-      td = staff.team
-      td = staff.name
-      td = staff.position
-      td = staff.photo
-      td = link_to 'Show', staff
-      td = link_to 'Edit', edit_staff_path(staff)
-      td = link_to 'Destroy', staff, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Staff', new_staff_path
+- provide(:title, 'Staff | Dartmouth Symphony Orchestra')
+#main
+  .container.staff.mainEvent
+    / .row
+    /   .twelvecol.last.center
+    /     h1
+    /       | DSO Staff
+    /     p
+    /       | At the DSO, we pride ourselves in the professionalism of our creative staff, as well as our student managers.
+  .container.news.section
+    .row
+      .twelvecol.last.center
+        h3
+          = "Creative Team"
+  .container.staff.center.section
+    .row
+      - for staff in @creatives do
+        - if cycle('1', '2') == ('1')
+          | <div class="row">
+          .twocol
+          .fourcol
+            .portrait[style='#{ staff.photo.present? ? "background-image:url(#{staff.photo})" : "" }']
+            .h3 = staff.name
+            small.position = staff.position 
+        - else
+          .fourcol.last
+            .portrait[style='#{ staff.photo.present? ? "background-image:url(#{staff.photo})" : "" }']
+            .h3 = staff.name
+            small.position = staff.position
+          | </div>
+  .container.news.section
+    .row
+      .twelvecol.last.center
+        h3
+          = "Management Team"
+  .container.staff.center.section
+    - for staff in @management do
+      - if cycle('1', '2') == ('1')
+        | <div class="row">
+        .twocol
+        .fourcol
+          .portrait[style='#{ staff.photo.present? ? "background-image:url(#{staff.photo})" : "" }']
+          .h3 = staff.name
+          small.position = staff.position 
+      - else
+        .fourcol.last
+          .portrait[style='#{ staff.photo.present? ? "background-image:url(#{staff.photo})" : "" }']
+          .h3 = staff.name
+          small.position = staff.position
+        | </div>

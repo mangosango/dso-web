@@ -18,6 +18,8 @@ html
     link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'
     link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'
   body
+    #openBar
+      = link_to raw(' <i class="icon-list"></i>'), '#', :id => 'openMenu'
     #leftBar
       = render 'layouts/nav'
     #wrapper

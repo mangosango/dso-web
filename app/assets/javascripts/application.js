@@ -14,3 +14,17 @@
 //= require jquery.turbolinks
 //= require_tree .
 //= require turbolinks
+
+$(document).ready(function() {
+	// drop in alerts
+	var $leftBar = $('#leftBar');
+	var $openBar = $('#openBar');
+
+	// open menu on smaller screens
+	$openBar.on('click', function(e) {
+		e.preventDefault();
+		$leftBar.toggleClass('closed');
+		$('#main').toggleClass('closed');
+		$(this).toggleClass('closed');
+	});
+});
