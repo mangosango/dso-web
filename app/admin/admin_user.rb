@@ -16,5 +16,13 @@ ActiveAdmin.register AdminUser do
       f.input :password_confirmation  
     end                               
     f.actions                         
-  end                                 
+  end
+  
+  controller do
+    def update
+      update! do |format|
+        format.html { redirect_to collection_path }
+      end
+    end
+  end                           
 end                                   

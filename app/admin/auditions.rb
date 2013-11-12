@@ -7,7 +7,9 @@ ActiveAdmin.register Audition do
     end
     column :times
     column :location
-    column :description
+    column :description do |desc|
+      para = raw(desc.description)
+    end
     column "" do |resource|
       links = ''.html_safe
       links += link_to I18n.t('active_admin.edit'), edit_resource_path(resource), :class => "member_link edit_link"
@@ -21,8 +23,16 @@ ActiveAdmin.register Audition do
       f.input :date, as: :datepicker
   	  f.input :times
   	  f.input :location
-  	  f.input :description, as: :text
+  	  f.input :description, as: :text, input_html: { id: "redactor_here", class: "redactor", rows: "400" }
     end
     f.actions
+  end
+
+  controller do
+    def update
+      update! do |format|
+        format.html { redirect_to collection_path }
+      end
+    end
   end
 end

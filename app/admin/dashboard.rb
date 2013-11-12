@@ -13,13 +13,20 @@ ActiveAdmin.register_page "Dashboard" do
     # Here is an example of a simple dashboard with columns and panels.
     
     columns do
+
+      # column do
+      #   panel "Info" do
+      #     para "Welcome to the DSO website admin panel!"
+      #   end
+      # end
+
       column do
         panel "Recent Events" do
           ul do
             for event in Event.all.sort_by(&:date).reverse do
               li link_to(event.name, edit_admin_event_path(event))
-              div event.date
-              para truncate(event.description, :length => 50)
+              para event.date
+
             end
           end
         end
@@ -42,15 +49,9 @@ ActiveAdmin.register_page "Dashboard" do
           ul do
             for audition in Audition.all do
               li link_to(audition.date, edit_admin_audition_path(audition))
-              para audition.description
+              para raw(audition.description)
             end
           end
-        end
-      end
-
-      column do
-        panel "Info" do
-          para "Welcome to ActiveAdmin."
         end
       end
     end

@@ -75,6 +75,9 @@ p {
   @media handheld, only screen and (max-width: 835px) {
     font-size: 13pt;
   }
+
+  animation-delay:500ms;
+  -webkit-animation-delay:500ms; /* Safari and Chrome */
 }
 
 a {
@@ -244,6 +247,9 @@ hr {
     letter-spacing: 3px;
     font-weight: 200;
 
+    animation-delay:50ms;
+    -webkit-animation-delay:50ms; /* Safari and Chrome */
+
     @media handheld, only screen and (max-width: 835px) {
       font-size: 10pt;
     }
@@ -258,6 +264,8 @@ hr {
 		line-height: 1.3em;
 		text-transform: uppercase;
 		letter-spacing: 4px;
+    animation-delay:200ms;
+    -webkit-animation-delay:200ms; /* Safari and Chrome */
 
     @media handheld, only screen and (max-width: 835px) {
       font-size: 48pt;
