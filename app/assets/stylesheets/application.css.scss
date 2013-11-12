@@ -106,7 +106,7 @@ hr {
   height: 100%;
   width: $leftBarWidth;
   font-family: $serif;
-  font-weight: 600;
+  font-weight: 700;
   color: white; 
   @include transition(250ms);
   z-index: 999;
@@ -192,7 +192,10 @@ hr {
 }
 
 .about {
-  height: 600px;
+  height: 400px;
+  @media only screen and (max-width: 1043px) {
+    height: 300px;
+  }
 }
 
 .mainEvent {
@@ -282,7 +285,7 @@ hr {
 .news {
 
   h3 {
-    font-weight: 600;
+    font-weight: 700;
     line-height: 100px;
     letter-spacing: 2px;
     font-size:18pt;
@@ -527,7 +530,7 @@ hr {
     .h3 {
       color: $dark;
       font-size: 18pt;
-      font-weight: 600;
+      font-weight: 700;
       padding-top: 15px;
       padding-bottom: 15px;
     }
