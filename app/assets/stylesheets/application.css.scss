@@ -70,7 +70,7 @@ p {
   font-size: 14pt;
   line-height: 18pt;
 
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 
   @media handheld, only screen and (max-width: 835px) {
     font-size: 13pt;
@@ -306,6 +306,10 @@ hr {
   article {
     padding-top: 50px;
 
+    @media handheld, only screen and (max-width: 835px) {
+      padding-top: 25px;
+    }
+
     h4 {
       font-family: $serif;
       font-size: 20pt;
@@ -331,6 +335,10 @@ hr {
 
   article:last-child {
     padding-bottom: 60px;
+
+    @media handheld, only screen and (max-width: 835px) {
+      padding-bottom: 30px;
+    }
   }
 } // news
 
@@ -509,6 +517,9 @@ hr {
 
   .row {
     padding-bottom: 80px;
+    @media handheld, only screen and (max-width: 835px) {
+      padding-bottom: 0;
+    }
     &:last-child {
       padding-bottom: 0;
     }
