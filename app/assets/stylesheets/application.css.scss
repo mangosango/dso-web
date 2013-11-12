@@ -77,8 +77,15 @@ p {
   }
 }
 
-a, a:hover, a:visited, a:active, a:focused {
+a {
+  color: #25951a;
   text-decoration: none; // get rid of the shitty fucking underlines, seriously
+  &:hover {
+    color: #4cbf41;
+  }
+  &:visited {
+    color: #25951a;
+  }
 }
 
 hr {
@@ -217,12 +224,17 @@ hr {
   }
 
   .row {
-    padding-top: 175px;
-    padding-bottom: 250px;
+    padding-top: 125px;
+    padding-bottom: 200px;
 
     @media only screen and (max-width: 1043px) {
       padding-top: 100px;
       padding-bottom: 100px;
+    }
+
+    @media handheld, only screen and (max-width: 576px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
   }
 
