@@ -174,8 +174,11 @@ hr {
 	height: 100%;
   @include transition(250ms);
   @media only screen and (max-width: 1043px) {
-    // @include translate-y(60px);
     margin-top: 60px;
+  }
+  @media only screen and (max-width: 835px) {
+    // @include translate-y(60px);
+    margin-top: 64px;
   }
 }
 
@@ -284,6 +287,10 @@ hr {
     letter-spacing: 2px;
     font-size:18pt;
     text-transform: uppercase;
+  }
+
+  h3.audition {
+    line-height: 24px;
   }
 
   @media handheld, only screen and (max-width: 1043px) {
@@ -457,13 +464,14 @@ hr {
   position: fixed;
   top: 0;
   width: 100%;
-  background:$dark;
+  background:#222;
   padding:20px 0;
+  opacity: 0.85;
 }
 
 #openMenu {
   padding: 20px;
-  background: $dark;
+  background: #222;
   i[class^="icon-"] {
     color: #fff;
     font-size: 16px;
@@ -524,4 +532,12 @@ hr {
   padding: 0;
   height: 0px;
   background-image: url('http://24.media.tumblr.com/23e3f4bb271b8bdc415275fb7061f204/tumblr_mve3rvxwaP1st5lhmo1_1280.jpg');
+}
+
+.container.audition.mainEvent {
+  height: 400px;
+  @media only screen and (max-width: 1043px) {
+    height: 300px;
+  }
+  background-image: image-url('auditions.jpg');
 }
