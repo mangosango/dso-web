@@ -1,5 +1,9 @@
 ActiveAdmin.register Staff do
-  index do
+
+  # Make the label singular
+  menu :label => 'Staff'
+
+  index :title => "Staff" do
     column :photo do |staff|
       para = link_to image_tag(staff.photo, height: 'auto', width: '200'), edit_admin_staff_path(staff)
     end

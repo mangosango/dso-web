@@ -1,6 +1,9 @@
 ActiveAdmin.register About, :as => "About" do
 
-  index do
+  # Make the label singular
+  menu :label => 'About'
+
+  index :title => "About" do
     column :image do |image|
       para = image_tag(image.image, height: 'auto', width: '200')
     end

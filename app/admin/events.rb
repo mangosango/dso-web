@@ -1,11 +1,14 @@
 ActiveAdmin.register Event do
   config.sort_order = "date_desc"
+  filter :title
+  filter :date
 
   index do
     column :date, sortable: :date do |event|
       link_to event.date.to_s(:long), edit_admin_event_path(event)
     end
     column :name
+    column :tag
     column "" do |resource|
       links = ''.html_safe
       links += link_to I18n.t('active_admin.edit'), edit_resource_path(resource), :class => "member_link edit_link"
@@ -17,6 +20,7 @@ ActiveAdmin.register Event do
   form do |f|
     f.inputs "Event" do
       f.input :name
+      f.input :tag
       f.input :date, as: :datepicker
       f.input :description, as: :text, input_html: { id: "redactor_here", class: "redactor", rows: "400" }
     end

@@ -1,5 +1,11 @@
 DsoWeb::Application.routes.draw do
   
+  resources :sections
+
+
+  resources :contacts
+
+
   resources :pages
 
   resources :abouts
