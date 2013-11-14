@@ -1,6 +1,7 @@
 class Contact
   include Mongoid::Document
-  field :phone, type: String
-  has_many :sections
-  accepts_nested_attributes_for :sections
+  # field :phone, type: String
+  field :category
+  field :manager_1
+  field :manager_2
 end

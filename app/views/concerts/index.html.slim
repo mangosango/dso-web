@@ -1,27 +1,28 @@
-h1 Listing concerts
-
-table
-  tr
-    th Date
-    th Time
-    th Description
-    th Image
-    th Ticket
-    th
-    th
-    th
-
-  - @concerts.each do |concert|
-    tr
-      td = concert.date
-      td = concert.time
-      td = concert.description
-      td = concert.image
-      td = concert.ticket
-      td = link_to 'Show', concert
-      td = link_to 'Edit', edit_concert_path(concert)
-      td = link_to 'Destroy', concert, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Concert', new_concert_path
+- provide(:title, 'Contact | Dartmouth Symphony Orchestra')
+#main
+  .container.contact.section
+    .row
+      .twelvecol.last.center
+        h3
+          = "Contact"
+  .container.news
+    - for event in @events do
+      .row
+        .twocol
+        .eightcol.last
+          article
+            h4.articleTitle = event.name
+            small.articleDate = event.date
+            -if current_user
+              li = link_to "Edit", edit_event_path(event)
+            hr
+            p = raw(event.description)
+      .dotted-border
+  .container.news
+    .row
+      .twocol
+      .twocol.paginate
+        .prev = link_to_previous_page @events, 'Previous Page'
+      .fourcol
+      .twocol.paginate.last
+        .next = link_to_next_page @events, 'Next Page'

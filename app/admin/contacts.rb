@@ -2,16 +2,10 @@ ActiveAdmin.register Contact do
   menu :label => 'Contact'
 
   index :title => "Contact" do
-    panel "Contact Info" do
-      table_for Contact.sections do
-        column "section" do |section|
-          section.title
-        end
-      end
+    column :category do |contact|
+      link_to contact.category, edit_admin_contact_path(contact)
     end
-    # column :phone do |contact|
-    #   link_to contact.phone, edit_admin_contact_path(contact)
-    # end
-    # column A
+    column :manager_1
+    column :manager_2
   end
 end
