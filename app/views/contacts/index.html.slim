@@ -13,3 +13,4 @@
           article
             h4 = contact.category
             p = contact.manager_1
+            small = @staff.where(:name => contact.manager_1).first.email
