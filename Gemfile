@@ -28,6 +28,9 @@ gem 'devise'
 # WE DON'T FUCK AROUND
 gem 'kaminari'
 
+# PING SO THE SITE DOESNT DIE
+gem 'newrelic_rpm'
+
 # Gems used only for assets
 group :assets do
   gem 'sass-rails',     '~> 3.2.3'
