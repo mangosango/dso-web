@@ -1,16 +1,49 @@
 - provide(:title, 'Contact | Dartmouth Symphony Orchestra')
 #main
-  .container.news.section
+  .container.contact.section
     .row
       .twelvecol.last.center
         h3
           = "Contact"
-  .container.news
+  .container.contact.section
+    .row
+      .twelvecol.last.center
+        article
+          p
+            | For general inquiries and information, please contact the DSO office at (603) 646-3420.
+  .container.contact.center
     - for contact in @contacts do
-      .row
+      - if cycle('1', '2') == ('1')
+        | <div class="row">
         .twocol
-        .eightcol.last
+        .fourcol
+          article
+            h4 #{contact.category}
+            hr
+            - if (contact.manager_1.present?)
+              p = contact.manager_1
+              small
+                a[href='mailto:#{@staff.where(:name => contact.manager_1).first.email}'] = @staff.where(:name => contact.manager_1).first.email
+              br
+              br
+            - if (contact.manager_2.present?)
+              p = contact.manager_2
+              small
+                a[href='mailto:#{@staff.where(:name => contact.manager_2).first.email}'] = @staff.where(:name => contact.manager_2).first.email
+      - else 
+        .fourcol.last
           article
             h4 = contact.category
-            p = contact.manager_1
-            small = @staff.where(:name => contact.manager_1).first.email
+            hr
+            - if (contact.manager_1.present?)
+              p = contact.manager_1
+              small
+                a[href='mailto:#{@staff.where(:name => contact.manager_1).first.email}'] = @staff.where(:name => contact.manager_1).first.email
+              br
+              br
+            - if (contact.manager_2.present?)
+              p = contact.manager_2
+              small
+                a[href='mailto:#{@staff.where(:name => contact.manager_2).first.email}'] = @staff.where(:name => contact.manager_2).first.email
+          | </div>
+
