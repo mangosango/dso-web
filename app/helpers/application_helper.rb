@@ -16,4 +16,17 @@ module ApplicationHelper
       "#{page_title} | #{app_name}"
     end
   end
+
+  # Returns current if path the current path
+  def cp(path)
+    "current" if current_page?(path)
+  end
+
+  def about_path
+    '/about'
+  end
+
+  def staff_path
+    '/staff'
+  end
 end
