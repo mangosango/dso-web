@@ -1,12 +1,12 @@
 - provide(:title, 'Dartmouth Symphony Orchestra')
 #main
-  .container.mainEvent[style='#{ @firstEvent.image.present? ? "background-image:url(#{@firstEvent.image})" : "" }']
+  .container.mainEvent[style='#{ @concert.image.present? ? "background-image:url(#{@concert.image})" : "" }']
     .row
-      .twelvecol.last[style='#{ @firstEvent.blackText.present? ? "color:#333" : "" }']
-        small = @firstEvent.date
-        h1 = @firstEvent.name
-        p = @firstEvent.description
-        a.button[href="#{ @firstEvent.ticket ? @firstEvent.ticket : '#' }"]
+      .twelvecol.last[style='#{ @concert.blackText.present? ? "color:#333" : "" }']
+        small = @concert.date
+        h1 = @concert.name
+        p = @concert.description
+        a.button[href="#{ @concert.ticket ? @concert.ticket : '#' }"]
           = "Get Tickets"
 
   .container.news.section
@@ -31,7 +31,7 @@
       .twelvecol.paginate
         .center = link_to 'View More News', events_path
 
-- unless @firstEvent.image.present?
+- unless @concert.image.present?
   video id="video_background" preload="auto" muted="true" loop="loop" canplay="false" class="is-vertical" autoplay="true"
     /source src="https://cloud.box.com/shared/static/dw0qwu2duzh476cpugzh.webm" type="video/webm"
     source src="https://cloud.box.com/shared/static/s8tln5lodvce7hpebsz8.mp4" type="video/mp4"
