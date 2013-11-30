@@ -1,21 +1,28 @@
-h1 Listing sections
+- provide(:title, 'Dartmouth Symphony Orchestra | Members')
+#main
+  .container.news.section
+    .row
+      .twelvecol.last.center
+        h3.animate.fadeIn
+          i[class='icon-newspaper']
+          = "News"
+  .container.news
+    - for event in @events do
+      .row
+        .twocol
+        .eightcol.last
+          article
+            h4.articleTitle = event.name
+            small.articleDate = event.date
+            hr
+            p = raw(event.description)
+      .dotted-border
+  .container.news
+    .row
+      .twelvecol.paginate
+        .center = link_to 'View More News', events_path
 
-table
-  tr
-    th Title
-    th Manager
-    th
-    th
-    th
-
-  - @sections.each do |section|
-    tr
-      td = section.title
-      td = section.manager
-      td = link_to 'Show', section
-      td = link_to 'Edit', edit_section_path(section)
-      td = link_to 'Destroy', section, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Section', new_section_path
+- unless @concert.image.present?
+  video id="video_background" preload="auto" muted="true" loop="loop" canplay="false" class="is-vertical" autoplay="true"
+    /source src="https://cloud.box.com/shared/static/dw0qwu2duzh476cpugzh.webm" type="video/webm"
+    source src="https://cloud.box.com/shared/static/s8tln5lodvce7hpebsz8.mp4" type="video/mp4"
