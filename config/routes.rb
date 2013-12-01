@@ -1,6 +1,6 @@
 DsoWeb::Application.routes.draw do
   
-  resources :sections
+  resources :orchestra_sections
 
 
   resources :contacts
