@@ -1,0 +1,17 @@
+h1 Listing orchestra_sections
+
+table
+  tr
+    th
+    th
+    th
+
+  - @orchestra_sections.each do |orchestra_section|
+    tr
+      td = link_to 'Show', orchestra_section
+      td = link_to 'Edit', edit_orchestra_section_path(orchestra_section)
+      td = link_to 'Destroy', orchestra_section, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Orchestra section', new_orchestra_section_path

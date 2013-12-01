@@ -1,0 +1,9 @@
+= form_for @orchestra_section do |f|
+  - if @orchestra_section.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@orchestra_section.errors.count, "error")} prohibited this orchestra_section from being saved:"
+      ul
+        - @orchestra_section.errors.full_messages.each do |message|
+          li = message
+
+  .actions = f.submit 'Save'
