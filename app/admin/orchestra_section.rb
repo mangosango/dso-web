@@ -28,12 +28,4 @@ ActiveAdmin.register OrchestraSection do
 	  end
     f.actions
   end
-
-  controller do
-    def update
-      update! do |format|
-        format.html { redirect_to collection_path }
-      end
-    end
-  end
 end
