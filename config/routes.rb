@@ -20,6 +20,8 @@ DsoWeb::Application.routes.draw do
   resources :staffs
   resources :staff, :controller => "staffs"
 
+  resources :news, :controller => "events"
+
 
   resources :auditions
 

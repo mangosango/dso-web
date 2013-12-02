@@ -1,17 +1,23 @@
-h1 Listing orchestra_sections
-
-table
-  tr
-    th
-    th
-    th
-
-  - @orchestra_sections.each do |orchestra_section|
-    tr
-      td = link_to 'Show', orchestra_section
-      td = link_to 'Edit', edit_orchestra_section_path(orchestra_section)
-      td = link_to 'Destroy', orchestra_section, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Orchestra section', new_orchestra_section_path
+- provide(:title, 'Members | Dartmouth Symphony Orchestra')
+#main
+  .container.news.section
+    .row
+      .twelvecol.last.center
+        h3.animate.fadeIn
+          i[class='icon-newspaper']
+          = "News"
+  .container.news
+    - for event in @events do
+      .row
+        .twocol
+        .eightcol.last
+          article
+            h4.articleTitle = event.name
+            small.articleDate = event.date
+            hr
+            p = raw(event.description)
+      .dotted-border
+  .container.news
+    .row
+      .twelvecol.paginate
+        .center = link_to 'View More News', events_path

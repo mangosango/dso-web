@@ -29,4 +29,8 @@ module ApplicationHelper
   def staff_path
     '/staff'
   end
+
+  def news_path
+    '/news'
+  end
 end
