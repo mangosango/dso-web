@@ -19,9 +19,9 @@ DsoWeb::Application.routes.draw do
 
   resources :staffs
   resources :staff, :controller => "staffs"
+  resources :members, :controller => "orchestra_sections"
 
   resources :news, :controller => "events"
-
 
   resources :auditions
 

@@ -1,13 +1,6 @@
 - provide(:title, 'News | Dartmouth Symphony Orchestra')
 #main
-  .container.event.mainEvent
-  .container.news.section
-    .row
-      .twelvecol.last.center
-        h3
-          i[class='icon-newspaper']
-          = "News"
-  .container.news
+  .container.members
     - for event in @events do
       .row
         .twocol

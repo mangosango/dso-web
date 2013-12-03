@@ -4,20 +4,14 @@
     .row
       .twelvecol.last.center
         h3.animate.fadeIn
-          i[class='icon-newspaper']
-          = "News"
+          = "Members"
   .container.news
-    - for event in @events do
+    - for section in @sections do
       .row
         .twocol
         .eightcol.last
           article
-            h4.articleTitle = event.name
-            small.articleDate = event.date
+            h4.articleTitle = section.name
             hr
-            p = raw(event.description)
-      .dotted-border
-  .container.news
-    .row
-      .twelvecol.paginate
-        .center = link_to 'View More News', events_path
+            - for member in section.members do
+              p = member.name

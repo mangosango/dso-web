@@ -2,9 +2,10 @@ ActiveAdmin.register OrchestraSection do
   menu :label => 'Sections'
 
   index do
-    column :name, sortable: :name do |section|
-      link_to section.name, edit_admin_orchestra_section_path(section)
+    column :position, sortable: :position do |section|
+      link_to section.position, edit_admin_orchestra_section_path(section)
     end
+    column :name
     column :members do |section|
       section.members.length
     end
@@ -19,6 +20,7 @@ ActiveAdmin.register OrchestraSection do
   form do |f|
     f.inputs "Section" do
       f.input :name
+      f.input :position
       f.has_many :members do |member|
   	    member.inputs "Member" do
   	      member.input :name

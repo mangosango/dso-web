@@ -33,4 +33,8 @@ module ApplicationHelper
   def news_path
     '/news'
   end
+
+  def members_path
+    '/members'
+  end
 end
