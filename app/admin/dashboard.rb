@@ -14,11 +14,11 @@ ActiveAdmin.register_page "Dashboard" do
     
     columns do
 
-      # column do
-      #   panel "Info" do
-      #     para "Welcome to the DSO website admin panel!"
-      #   end
-      # end
+      column do
+        panel "Info" do
+          para "Welcome to the DSO website admin panel!"
+        end
+      end
 
       column do
         panel "Recent Events" do
