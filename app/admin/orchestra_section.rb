@@ -22,9 +22,9 @@ ActiveAdmin.register OrchestraSection do
       f.input :name
       f.input :position
       f.has_many :members do |member|
-  	    member.inputs "Member" do
+  	    member.inputs "Musician" do
   	      member.input :name
-          member.input :_destroy, :label => "Delete Member", :as => :boolean
+          member.input :_destroy, :label => "Delete Musician", :as => :boolean
   	    end
       end
 	  end
