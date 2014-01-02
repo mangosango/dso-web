@@ -1,5 +1,5 @@
 ActiveAdmin.register OrchestraSection do
-  menu :label => 'Sections'
+  menu :label => 'Orchestra Members'
 
   index do
     column :position, sortable: :position do |section|
