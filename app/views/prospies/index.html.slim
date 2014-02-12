@@ -1,0 +1,14 @@
+- provide(:title, 'Prospective Students | Dartmouth Symphony Orchestra')
+#main
+  .container.about.mainEvent[style='#{ @prospy.image.present? ? "background-image:url(#{@prospy.image})" : "" }']
+  .container.news.section
+    .row
+      .twelvecol.last.center
+        h3
+          = "Prospective Students"
+  .container.news
+    .row
+      .twocol
+      .eightcol.last
+        article
+          p = raw(@prospy.description)

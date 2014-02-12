@@ -1,5 +1,8 @@
 DsoWeb::Application.routes.draw do
   
+  resources :prospies
+
+
   resources :orchestra_sections
 
 
