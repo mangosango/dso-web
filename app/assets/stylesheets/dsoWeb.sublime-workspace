@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"member",
+				"members"
+			],
+			[
+				"light",
+				"light"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"page",
+				"page"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"left",
+				"leftBarWidth"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bacgr",
+				"background-color"
+			],
+			[
+				"vide",
+				"videoSource"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
 				"devices",
 				"devicesPopup"
 			],
@@ -56,10 +128,6 @@
 				"render_pic"
 			],
 			[
-				"back",
-				"background-image"
-			],
-			[
 				"set",
 				"setupSeekbar"
 			],
@@ -82,10 +150,6 @@
 			[
 				"z",
 				"z_index"
-			],
-			[
-				"background",
-				"background-position"
 			],
 			[
 				"ba",
@@ -118,10 +182,6 @@
 			[
 				"PREVI",
 				"PREVIOUS_DIR"
-			],
-			[
-				"backgr",
-				"background-repeat"
 			],
 			[
 				"e",
@@ -218,117 +278,16 @@
 			[
 				"for",
 				"foreach	foreach …"
-			],
-			[
-				"in",
-				"inline-block"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/slee/dso-web/app/views/layouts/application.html.slim",
+			"file": "/Users/slee/dso-web/app/views/layouts/_nav.html.slim",
 			"settings":
 			{
-				"buffer_size": 1188,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/models/admin_user.rb",
-			"settings":
-			{
-				"buffer_size": 1446,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/models/event.rb",
-			"settings":
-			{
-				"buffer_size": 168,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/views/events/index.html.slim",
-			"settings":
-			{
-				"buffer_size": 85,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/views/layouts/post.html.slim",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/views/pages/index.html.slim",
-			"settings":
-			{
-				"buffer_size": 423,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/helpers/events_helper.rb",
-			"settings":
-			{
-				"buffer_size": 24,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/controllers/pages_controller.rb",
-			"settings":
-			{
-				"buffer_size": 68,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/slee/dso-web/app/controllers/events_controller.rb",
-			"settings":
-			{
-				"buffer_size": 212,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "h1 Editing cat\n\n== render 'form'\n\n= link_to 'Show', @cat\n'|\n= link_to 'Back', cats_path\n\n",
-			"file": "/Users/slee/dso-web/app/views/cats/edit.html.slim",
-			"file_size": 89,
-			"file_write_time": 130269454840000000,
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "class DogsController < InheritedResources::Base\n\ndef index\n\nend\nend\n",
-			"file": "/Users/slee/dso-web/app/controllers/dogs_controller.rb",
-			"file_size": 52,
-			"file_write_time": 130269455460000000,
-			"settings":
-			{
-				"buffer_size": 68,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "p#notice = notice\n\np\n  strong Name:\n  = @dog.name\np\n  strong Type:\n  = @dog.type\n\n= link_to 'Edit', edit_dog_path(@dog)\n'|\n= link_to 'Back', dogs_path\n",
-			"file": "/Users/slee/dso-web/app/views/dogs/show.html.slim",
-			"file_size": 151,
-			"file_write_time": 130269455460000000,
-			"settings":
-			{
-				"buffer_size": 151,
+				"buffer_size": 831,
 				"line_ending": "Unix"
 			}
 		},
@@ -336,23 +295,71 @@
 			"file": "/Users/slee/dso-web/config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 552,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/slee/dso-web/config/application.rb",
+			"file": "/Users/slee/dso-web/app/helpers/application_helper.rb",
 			"settings":
 			{
-				"buffer_size": 3071,
+				"buffer_size": 629,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/slee/dso-web/Rakefile",
+			"file": "/Users/slee/dso-web/app/views/orchestra_sections/index.html.slim",
 			"settings":
 			{
-				"buffer_size": 271,
+				"buffer_size": 432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/admin/orchestra_section.rb",
+			"settings":
+			{
+				"buffer_size": 1153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/models/prospy.rb",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/views/prospies/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/views/pages/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/controllers/prospies_controller.rb",
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/admin/dashboard.rb",
+			"settings":
+			{
+				"buffer_size": 1611,
 				"line_ending": "Unix"
 			}
 		},
@@ -360,15 +367,23 @@
 			"file": "application.css.scss",
 			"settings":
 			{
-				"buffer_size": 1278,
+				"buffer_size": 11769,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/slee/dso-web/Gemfile",
+			"file": "1140.css.scss",
 			"settings":
 			{
-				"buffer_size": 856,
+				"buffer_size": 2445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/slee/dso-web/app/controllers/orchestra_sections_controller.rb",
+			"settings":
+			{
+				"buffer_size": 143,
 				"line_ending": "Unix"
 			}
 		}
@@ -405,8 +420,90 @@
 	},
 	"file_history":
 	[
+		"/Users/slee/dso-web/app/views/events/index.html.slim",
+		"/Users/slee/dso-web/app/admin/orchestra_section.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/application.css.scss",
+		"/Users/slee/dso-web/app/models/orchestra_section.rb",
+		"/Users/slee/dso-web/config/routes.rb",
+		"/Users/slee/dso-web/app/views/staffs/index.html.slim",
+		"/Users/slee/dso-web/app/views/concerts/index.html.slim",
+		"/Users/slee/dso-web/app/views/contacts/index.html.slim",
+		"/Users/slee/dso-web/app/views/pages/index.html.slim",
+		"/Users/slee/dso-web/app/admin/concerts.rb",
+		"/Users/slee/dso-web/app/views/orchestra_sections/index.html.slim",
 		"/Users/slee/dso-web/app/helpers/events_helper.rb",
+		"/Users/slee/dso-web/app/models/member.rb",
+		"/Users/slee/dso-web/app/helpers/concerts_helper.rb",
+		"/Users/slee/dso-web/app/views/pages/about.index.slim",
+		"/Users/slee/dso-web/app/controllers/orchestra_sections_controller.rb",
+		"/Users/slee/dso-web/app/views/sections/index.html.slim",
+		"/Users/slee/dso-web/app/helpers/orchestra_sections_helper.rb",
+		"/Users/slee/dso-web/app/models/section.rb",
+		"/Users/slee/dso-web/spec/models/orchestra_spec.rb",
+		"/Users/slee/dso-web/app/helpers/application_helper.rb",
+		"/Users/slee/dso-web/app/admin/contacts.rb",
+		"/Users/slee/dso-web/app/admin/admin_user.rb",
+		"/Users/slee/dso-web/app/models/staff.rb",
+		"/Users/slee/dso-web/app/admin/staffs.rb",
+		"/Users/slee/dso-web/app/admin/sections.rb",
+		"/Users/slee/dso-web/app/models/contact.rb",
+		"/Users/slee/dso-web/app/models/event.rb",
+		"/Users/slee/dso-web/app/controllers/pages_controller.rb",
+		"/Users/slee/dso-web/app/admin/events.rb",
+		"/Users/slee/dso-web/app/controllers/application_controller.rb",
+		"/Users/slee/dso-web/app/controllers/concerts_controller.rb",
+		"/Users/slee/dso-web/Gemfile",
+		"/Users/slee/dso-web/app/views/layouts/_nav.html.slim",
+		"/Users/slee/dso-web/app/controllers/events_controller.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/active_admin.css.scss",
+		"/Users/slee/dso-web/app/admin/abouts.rb",
+		"/Users/slee/dso-web/app/controllers/contacts_controller.rb",
+		"/Users/slee/dso-web/app/models/audition.rb",
+		"/Users/slee/dso-web/app/views/about/index.html.slim",
+		"/Users/slee/dso-web/app/helpers/pages_helper.rb",
+		"/Users/slee/dso-web/app/views/auditions/index.html.slim",
+		"/Users/slee/dso-web/app/assets/javascripts/turbolinks_transitions.js.coffee",
+		"/Users/slee/dso-web/app/views/layouts/application.html.slim",
+		"/Users/slee/dso-web/app/controllers/abouts_controller.rb",
+		"/Users/slee/dso-web/app/helpers/abouts_helper.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/animate-custom.css.scss.css",
+		"/Users/slee/dso-web/app/controllers/auditions_controller.rb",
+		"/Users/slee/dso-web/app/assets/javascripts/application.js",
+		"/Users/slee/dso-web/app/helpers/about_helper.rb",
+		"/Users/slee/dso-web/app/admin/dashboard.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/1140.css.scss",
+		"/Users/slee/dso-web/app/admin/auditions.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/slee/dso-web/app/views/abouts/index.html.slim",
+		"/Users/slee/dso-web/app/assets/javascripts/active_admin.js",
+		"/Users/slee/dso-web/app/controllers/staffs_controller.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/staffs.css.scss",
+		"/Users/slee/dso-web/app/assets/javascripts/auditions.js.coffee",
+		"/Users/slee/dso-web/app/models/page.rb",
+		"/Users/slee/dso-web/config/environments/production.rb",
+		"/Users/slee/dso-web/app/assets/stylesheets/abouts.css.scss",
+		"/Users/slee/dso-web/app/models/pages.rb",
+		"/Users/slee/dso-web/app/models/about.rb",
+		"/Users/slee/dso-web/app/models/concert.rb",
+		"/Users/slee/dso-web/app/assets/javascripts/redactor-rails/config.js",
+		"/Users/slee/dso-web/config/initializers/active_admin.rb",
+		"/Users/slee/dso-web/app/models/orchestra.rb",
+		"/Users/slee/dso-web/config/initializers/active_admin_editor.rb",
+		"/Users/slee/Downloads/1140px-Responsive-CSS-Grid-1.0/css/1140.css",
+		"/Users/slee/dso-web/db/seeds.rb",
+		"/Users/slee/dso-web/.rspec",
+		"/Users/slee/dso-web/README.md",
+		"/Users/slee/dso-web/app/models/event/concert.rb",
+		"/Users/slee/dso-web/Rakefile",
+		"/Users/slee/dso-web/app/assets/stylesheets/pages.css.scss",
+		"/Users/slee/dso-web/app/models/admin_user.rb",
 		"/Users/slee/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/slee/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/slee/Downloads/SamplePush/simplepush.php",
+		"/Users/slee/dso-web/app/views/dogs/show.html.slim",
+		"/Users/slee/dso-web/app/controllers/dogs_controller.rb",
+		"/Users/slee/dso-web/app/views/cats/edit.html.slim",
+		"/Users/slee/dso-web/app/views/layouts/post.html.slim",
 		"/Users/slee/Box Sync/Product Design Hub - TESTING/Platform/Partner Integrations/Sharepoint/2 Initial Design/Assets/cloudConnect.css",
 		"/C/Users/Sang/Documents/thesis/app/apps/music/js/music.js",
 		"/C/Users/Sang/Documents/thesis/app/titlebar.js",
@@ -450,22 +547,7 @@
 		"/C/Users/Sang/Documents/thesis/app/apps/browser/style/filemanager.css",
 		"/C/Users/Sang/Documents/thesis/app/styles/titlebars.css",
 		"/C/Users/Sang/Documents/thesis/strategy.txt",
-		"/C/Users/Sang/Documents/thesis/app/clipboard.js",
-		"/C/xampp/htdocs/uploader/index.php",
-		"/C/xampp/htdocs/uploader/upload.php",
-		"/C/Users/Sang/Documents/thesis/app/apps/photos/style/photos",
-		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/frameless-window/titlebar.js",
-		"/C/xampp/htdocs/thesis/server-mobile.sublime-project",
-		"/C/Users/Sang/Documents/thesis/app/litestep.txt",
-		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/instagram-auth/index.js",
-		"/C/xampp/htdocs/thesis/userApps.php",
-		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/instagram-auth/manifest.json",
-		"/C/Program Files/nodejs/socket-server.js",
-		"/C/Users/Sang/Documents/thesis/app/js/OK",
-		"/C/Program Files/nodejs/app.js",
-		"/C/Users/Sang/Documents/thesis/app/js/taskbar.js",
-		"/C/Users/Sang/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Sang/Documents/thesis/chrome-app-samples-master/webserver/main.js"
+		"/C/Users/Sang/Documents/thesis/app/clipboard.js"
 	],
 	"find":
 	{
@@ -476,6 +558,9 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"<project>",
+			"",
+			"{ project }",
 			""
 		]
 	},
@@ -484,6 +569,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".",
+			"link_to",
+			"link_top",
+			"article",
+			"background-repeat",
+			"news",
+			"@firstEvent",
+			".news",
+			"update",
+			"p = contact.manager_1\n              small = @staff.where(:name => contact.manager_1).first.email",
+			"abouts",
+			"  \n",
+			"features.rb",
+			"600",
+			"1043px",
+			".news",
+			"image",
+			"@page = Page.find(params[:id])\n    @page = Page.new",
+			"event",
+			"redactor",
+			"_editor",
+			"_initParser",
+			"parser_rules",
+			"initialize",
+			"12",
+			"row",
+			".row",
+			"relative",
+			"bootstrap",
+			"images/dashboard-1.jpg",
+			"images/conversation.jpg",
+			"images/inbox.jpg",
+			"images/silence.jpg",
 			"WEB_HOST",
 			"localho",
 			"#content",
@@ -541,6 +659,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"@concert",
+			"photo",
+			"concert",
+			"http://www.squareonemail.com/sowebsite/wp-content/uploads/2013/11/dashboard-2.png",
+			"http://www.squareonemail.com/sowebsite/wp-content/uploads/2013/11/inline-reply.png",
+			"http://www.squareonemail.com/sowebsite/wp-content/uploads/2013/11/inbox-swipe.png",
+			"http://www.squareonemail.com/sowebsite/wp-content/uploads/2013/11/swipe.png",
 			"json.device",
 			"button",
 			"['devices']",
@@ -562,109 +687,24 @@
 	"groups":
 	[
 		{
-			"selected": 12,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/slee/dso-web/app/views/layouts/application.html.slim",
+					"file": "/Users/slee/dso-web/app/views/layouts/_nav.html.slim",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1188,
+						"buffer_size": 831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1061,
-								1061
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/slee/dso-web/app/models/admin_user.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								577,
-								577
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/slee/dso-web/app/models/event.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								133
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/slee/dso-web/app/views/events/index.html.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 85,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								84
+								792,
+								792
 							]
 						],
 						"settings":
@@ -675,15 +715,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/Users/slee/dso-web/app/views/layouts/post.html.slim",
+					"buffer": 1,
+					"file": "/Users/slee/dso-web/config/routes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 552,
 						"regions":
 						{
 						},
@@ -696,29 +737,68 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/Users/slee/dso-web/app/views/pages/index.html.slim",
+					"buffer": 2,
+					"file": "/Users/slee/dso-web/app/helpers/application_helper.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 423,
+						"buffer_size": 629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								298,
-								298
+								592,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Users/slee/dso-web/app/views/orchestra_sections/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
 							]
 						],
 						"settings":
@@ -731,241 +811,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/Users/slee/dso-web/app/helpers/events_helper.rb",
+					"buffer": 4,
+					"file": "/Users/slee/dso-web/app/admin/orchestra_section.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24,
+						"buffer_size": 1153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/slee/dso-web/app/controllers/pages_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/slee/dso-web/app/controllers/events_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Users/slee/dso-web/app/views/cats/edit.html.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 89,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/Users/slee/dso-web/app/controllers/dogs_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60,
-								60
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/Users/slee/dso-web/app/views/dogs/show.html.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/Users/slee/dso-web/config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								239,
-								239
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/Users/slee/dso-web/config/application.rb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3071,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1841,
-								1841
+								702,
+								702
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "/Users/slee/dso-web/Rakefile",
+					"buffer": 5,
+					"file": "/Users/slee/dso-web/app/models/prospy.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 271,
+						"buffer_size": 81,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								76,
+								76
 							]
 						],
 						"settings":
@@ -976,57 +869,201 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 15,
-					"file": "application.css.scss",
+					"buffer": 6,
+					"file": "/Users/slee/dso-web/app/views/prospies/index.html.slim",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1278,
+						"buffer_size": 419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								579,
-								579
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/slee/dso-web/app/views/pages/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1018,
+								1018
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/slee/dso-web/app/controllers/prospies_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/slee/dso-web/app/admin/dashboard.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "application.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4284,
+								4284
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"word_wrap": true
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 99.0,
+						"translation.y": 2762.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "/Users/slee/dso-web/Gemfile",
+					"buffer": 11,
+					"file": "1140.css.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 856,
+						"buffer_size": 2445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								520,
-								520
+								880,
+								880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/slee/dso-web/app/controllers/orchestra_sections_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
 							]
 						],
 						"settings":
@@ -1037,6 +1074,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1070,7 +1108,7 @@
 		"cols":
 		[
 			0.0,
-			0.425478114058,
+			0.475726145664,
 			1.0
 		],
 		"rows":
@@ -1080,10 +1118,18 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"project": "",
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
