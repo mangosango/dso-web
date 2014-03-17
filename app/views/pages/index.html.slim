@@ -29,7 +29,7 @@
   .container.news
     .row
       .twelvecol.paginate
-        .center = link_to 'View More News', events_path
+        .center = link_to 'View More News', 'http://www.dartmouth.edu/~dso/news', :target => '_top'
 
 - unless @concert.image.present?
   video id="video_background" preload="auto" muted="true" loop="loop" canplay="false" class="is-vertical" autoplay="true"
