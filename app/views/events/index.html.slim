@@ -9,7 +9,7 @@
             h4.articleTitle = event.name
             small.articleDate = event.date
             -if current_user
-              li = link_to "Edit", edit_event_path(event)
+              li = link_to "Edit", edit_event_path(event), :target => '_top'
             hr
             p = raw(event.description)
       .dotted-border
@@ -17,7 +17,7 @@
     .row
       .twocol
       .twocol.paginate
-        .prev = link_to_previous_page @events, 'Previous Page'
+        .prev = link_to_previous_page @events, 'Previous Page', :target => '_top'
       .fourcol
       .twocol.paginate.last
-        .next = link_to_next_page @events, 'Next Page'
+        .next = link_to_next_page @events, 'Next Page', :target => '_top'
