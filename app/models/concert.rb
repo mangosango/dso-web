@@ -4,8 +4,9 @@ class Concert
   field :date, :type => Date
   field :time
   field :description
-  field :image
-  field :ticket
+  field :image, default: -> { "http://" }
+  field :ticket, default: -> { "http://" }
+  field :buttonText, default: -> { "Get Tickets" }
   field :blackText
 
   validates_presence_of :name

@@ -44,7 +44,7 @@ group :development, :test do
   gem 'minitest-spec-rails'
   gem 'guard'
   gem 'guard-minitest'
-  gem 'debugger'
+  # gem 'debugger'
   gem 'capybara'
 end
 

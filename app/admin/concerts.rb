@@ -23,6 +23,7 @@ ActiveAdmin.register Concert do
       f.input :time, placeholder: 'What time will the concert begin?'
       f.input :image, placeholder: 'url to a nice low-contrast image. Ideal filesize is less than 500kb'
       f.input :ticket, placeholder: 'link to the ticket page where people can buy tickets. for example: https://hop.dartmouth.edu/Online/131109_dso'
+      f.input :buttonText, placeholder: 'What Text is displayed on the button. Make sure this isn\'t more than a few words long'
       f.input :description, placeholder: 'A short one-sentence description'
     end
     f.actions

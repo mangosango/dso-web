@@ -7,7 +7,7 @@
         h1 = @concert.name
         p = @concert.description
         a.button[href="#{ @concert.ticket ? @concert.ticket : '#' }" target="top"]
-          = "Get Tickets"
+          = @concert.buttonText
 
   .container.news.section
     .row
